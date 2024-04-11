@@ -145,7 +145,7 @@ public class MariaDB4jSampleTutorialTest {
         // Using the UID of the user that owns the data directory, we can execute this initial bootstrapping command:
         // Note that on Windows MariaDB apparently does not implement this, still uses empty string password for the
         // root user, so we can just use the root user.
-        var randomRootPassword = RandomStringUtils.random(69, 97, 122, true, true);
+        String randomRootPassword = RandomStringUtils.random(69, 97, 122, true, true);
         db.run("SET PASSWORD FOR 'root'@'localhost' = PASSWORD('" + randomRootPassword + "');",
                 config.isWindows() ? "root" : System.getProperty("user.name"), "");
 
