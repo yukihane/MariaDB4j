@@ -10,6 +10,7 @@
     <relativePath>mariaDB4j-pom-lite/pom.xml</relativePath>
   </parent>
 
+  <groupId>com.github.yukihane.mariaDB4j</groupId>
   <artifactId>mariaDB4j-pom</artifactId>
   <version>3.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
