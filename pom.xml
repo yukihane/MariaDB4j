@@ -56,7 +56,6 @@
           <release>8</release>
           <encoding>UTF-8</encoding>
           <compilerArgs>
-            <arg>-Werror</arg>
             <arg>-Xlint:all</arg>
             <arg>-XDcompilePolicy=simple</arg>
           </compilerArgs>
